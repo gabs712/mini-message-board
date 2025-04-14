@@ -6,6 +6,7 @@
   <title>Home</title>
 </head>
 <body>
+    <a href="/new">Add message</a>
     <ul>
       <% for (message of locals.messages) { %>
         <%- include('./message.ejs', {message: message}) %>
