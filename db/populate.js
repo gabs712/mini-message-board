@@ -1,6 +1,6 @@
 const { Client } = require('pg')
 
-require('dotenv').config({ override: true })
+require('dotenv').config()
 
 const SQL = `
 CREATE TABLE IF NOT EXISTS messages (

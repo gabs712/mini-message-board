@@ -10,8 +10,8 @@
     <ul>
       <% for (let i = 0; i < messages.length; i++) { %>
         <li>
-          <h4 style="display: inline-block; margin-block: 10px;"> <%= messages[i].user %> </h4>
-          <button><a href="<%=i + 1%>">Open</a></button>
+          <h4 style="display: inline-block; margin-block: 10px;"> <%= messages[i].username %> </h4>
+          <button><a href="<%=messages[i].id%>">Open</a></button>
         </li>
       <% } %>
     </ul>
